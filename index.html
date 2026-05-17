@@ -337,7 +337,7 @@ const sendBtn = document.getElementById('sendBtn');
 
 async function mockReply(userMsg) {
     try {
-        const response = await fetch('https://majestic-kleicha-219b79.netlify.app/.netlify/functions/deepseek-proxy', {
+        const response = await fetch('https://loquacious-haupia-6a7a90.netlify.app/.netlify/functions/deepseek-proxy', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ message: userMsg })
